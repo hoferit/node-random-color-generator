@@ -11,12 +11,12 @@
   "author": "Michael Hofer",
   "license": "ISC",
   "devDependencies": {
+    "@types/randomcolor": "^0.5.7",
     "eslint-config-upleveled": "^4.1.8",
     "typescript": "^5.0.4"
   },
   "dependencies": {
     "chalk": "^5.2.0",
-    "colortranslator": "^1.10.2",
     "randomcolor": "^0.6.2"
   }
 }
