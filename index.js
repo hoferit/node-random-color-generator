@@ -1,12 +1,11 @@
 import chalk from 'chalk';
-// import { ColorTranslator, Harmony, Mix } from 'colortranslator';
 import randomColor from 'randomcolor';
 
 const randomColorValue = randomColor();
 const inputHue = process.argv[2];
-const inputBright = process.argv[3];
+const inputLuminosity = process.argv[3];
 
-if (!inputHue && inputBright) {
+if (!inputHue && inputLuminosity) {
   console.log(
     chalk.hex(randomColorValue)(`  ###############################
   ###############################
@@ -20,7 +19,7 @@ if (!inputHue && inputBright) {
   );
 } else {
   const colorName = randomColor({
-    luminosity: inputBright,
+    luminosity: inputLuminosity,
     hue: inputHue,
   });
   console.log(
