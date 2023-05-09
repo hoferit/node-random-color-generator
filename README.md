@@ -24,7 +24,7 @@ hue (e.g. green or red or blue)
 and
 luminosity (e.g. light or dark)
 and then generate random colors that match those choices.
-\*STRICT SYNTAX REQUIRED!
+STRICT SYNTAX REQUIRED!
 eg:
 
 ```bash
